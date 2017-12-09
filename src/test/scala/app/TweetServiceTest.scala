@@ -15,7 +15,6 @@ import reactor.core.publisher.Flux
 
 import scala.collection.JavaConverters
 
-@RunWith(classOf[JUnitRunner])
 class TweetServiceTest extends Specification {
 
 

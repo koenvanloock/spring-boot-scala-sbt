@@ -12,6 +12,7 @@ val akkaVersion = "2.5.6"
 
 libraryDependencies ++= Seq(
   "org.springframework.boot" % "spring-boot-starter-webflux" % springBootReactorVersion,
+  "org.springframework.boot" % "spring-boot-starter-test" % springBootReactorVersion,
   "org.springframework.boot" % "spring-boot-starter-data-mongodb-reactive" % springBootReactorVersion,
   "com.typesafe.akka" % s"akka-actor_$scalaMajorVersion" % akkaVersion,
   "com.typesafe.akka" % s"akka-testkit_$scalaMajorVersion" % akkaVersion,
